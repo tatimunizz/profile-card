@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ProfileCardContainer = styled.div`
+export const ProfileCardContainer = styled.main`
 display: flex;
 height: calc(100vh - 60px);
 align-items: center;
@@ -15,7 +15,7 @@ border-radius: 10px;
 box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 `
 
-export const Header = styled.header`
+export const Header = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +34,7 @@ export const Avatar = styled.img`
   margin-top: -15%;
   `
 
-export const Main = styled.main`
+export const ProfileInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +60,7 @@ export const Locale = styled.div`
   color: ${props => props.theme['gray-blue']};
 `
 
-export const Footer = styled.div`
+export const ProfileData = styled.div`
   display: flex;
   width: 100%;
   height: 88px;

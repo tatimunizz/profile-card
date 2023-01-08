@@ -1,4 +1,4 @@
-import { Age, Avatar, Header, HeaderBackground, Locale, Main, Name, ProfileCardContainer, Footer, DataContainer, DataNumber, DataDescription, ProfileCardBody } from "./styles";
+import { Age, Avatar, Header, HeaderBackground, Locale, Name, ProfileCardContainer, DataContainer, DataNumber, DataDescription, ProfileCardBody, ProfileInfo, ProfileData } from "./styles";
 import bg from '../../assets/bg-pattern-card.svg';
 import avatar from '../../assets/image-victor.jpg';
 
@@ -7,20 +7,20 @@ export function ProfileCard() {
     <ProfileCardContainer>
       <ProfileCardBody>
       <Header>
-        <HeaderBackground src={bg} alt="" />
-        <Avatar src={avatar} alt="" width={106} height={106} />
+        <HeaderBackground src={bg} alt="Small cyan collored balls composing a background" />
+        <Avatar src={avatar} />
       </Header>
       
-      <Main>
+      <ProfileInfo>
         <Name>
           Victor Crest
           <Age>26</Age>
         </Name>
         <Locale>London</Locale>
         
-      </Main>
+      </ProfileInfo>
       
-      <Footer>
+      <ProfileData>
         <DataContainer>
           <DataNumber>80K</DataNumber>
           <DataDescription>Followers</DataDescription>
@@ -35,7 +35,7 @@ export function ProfileCard() {
           <DataNumber>1.4K</DataNumber>
           <DataDescription>Photos</DataDescription>
         </DataContainer>
-      </Footer>
+      </ProfileData>
       </ProfileCardBody>
 
     </ProfileCardContainer>
