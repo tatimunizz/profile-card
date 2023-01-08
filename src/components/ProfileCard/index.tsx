@@ -8,7 +8,7 @@ export function ProfileCard() {
       <ProfileCardBody>
       <Header>
         <HeaderBackground src={bg} alt="Small cyan collored balls composing a background" />
-        <Avatar src={avatar} />
+        <Avatar src={avatar} alt="avatar" />
       </Header>
       
       <ProfileInfo>

@@ -7,7 +7,7 @@ interface PageProps {
 
 export function Page({ children } : PageProps) {
   return(
-    <PageContainer role="page">
+    <PageContainer>
       {children}
     </PageContainer>
   )
