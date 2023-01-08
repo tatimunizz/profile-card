@@ -60,7 +60,7 @@ export const Locale = styled.div`
   color: ${props => props.theme['gray-blue']};
 `
 
-export const Footer = styled.footer`
+export const Footer = styled.div`
   display: flex;
   width: 100%;
   height: 88px;
